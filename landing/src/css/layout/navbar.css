@@ -1,0 +1,42 @@
+nav{
+    position: absolute;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 7;
+ }
+ .menu .logo{
+    width: 150px;
+    height: 40px;
+    margin: 8px 117px auto;
+ }
+ nav .menu .menu_items ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    margin: -23px 372px 0px auto;
+    padding: 10px;
+    font-size: 12px; 
+ }
+ p{
+    margin-left: -463px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+ }
+ nav .menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ nav .menu .menu_items ul li{
+     list-style: none;
+     margin: 0px -3px;
+     font-family: 'Montserrat', sans-serif;    
+ }
+ nav .menu .menu_items ul li>a{
+     text-decoration: none;
+     color: rgb(243, 240, 240);
+     text-transform: capitalize;
+     font-family: 'Chakra Petch', sans-serif;
+ }
